@@ -1,0 +1,25 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {}
+
+/* tablet */
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
